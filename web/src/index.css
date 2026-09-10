@@ -26,6 +26,7 @@
 html {
   scroll-behavior: smooth;
   color-scheme: dark;
+  scroll-padding-top: 5.25rem;
 }
 
 html,
@@ -135,9 +136,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.1rem var(--pad);
-  background: linear-gradient(to bottom, rgba(12, 11, 10, 0.92), rgba(12, 11, 10, 0.55) 70%, transparent);
-  backdrop-filter: blur(10px);
+  padding: 0.95rem var(--pad);
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
 }
 
 .nav-mark {
@@ -195,8 +196,7 @@ p {
 
 .hero {
   position: relative;
-  min-height: calc(100svh - 4.5rem);
-  padding: 2rem var(--pad) 4.5rem;
+  padding: 1.5rem var(--pad) 3.5rem;
 }
 
 .hero-grid {
@@ -311,7 +311,7 @@ p {
 }
 
 .hero-portrait {
-  width: min(100%, 22rem);
+  width: min(100%, 16.5rem);
   justify-self: start;
 }
 
@@ -351,8 +351,8 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(0.42) contrast(1.08) brightness(0.88) sepia(0.12);
-  transform: scale(1.04);
+  object-position: center 18%;
+  filter: contrast(1.04) brightness(0.96);
 }
 
 .hero-portrait figcaption {
@@ -367,6 +367,7 @@ p {
   padding: 5.5rem var(--pad);
   max-width: calc(var(--max) + var(--pad) * 2);
   margin: 0 auto;
+  scroll-margin-top: 5.25rem;
 }
 
 .section-tight {
@@ -405,7 +406,8 @@ html[lang="en"] .section-title {
 
 .project-row:hover,
 .project-row:focus-visible {
-  background: linear-gradient(90deg, transparent, var(--copper-soft), transparent);
+  background: linear-gradient(90deg, var(--copper-soft), transparent 62%);
+  box-shadow: inset 2px 0 0 var(--copper);
 }
 
 .project-row.is-static {
@@ -429,7 +431,7 @@ html[lang="en"] .section-title {
 
 .project-head h3,
 .more-card h3 {
-  font-family: var(--serif-en);
+  font-family: var(--serif-en), var(--serif-zh);
   font-size: 1.55rem;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -483,8 +485,8 @@ html[lang="en"] .section-title {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--copper);
-  border-bottom: 1px solid var(--line-strong);
-  padding-bottom: 0.2rem;
+  border: 1px solid var(--line-strong);
+  padding: 0.55rem 0.9rem;
 }
 
 .more-toggle:hover {
@@ -582,13 +584,17 @@ html[lang="en"] .honors strong {
   gap: 0.8rem 1.5rem;
   padding: 2rem var(--pad) 2.6rem;
   border-top: 1px solid var(--line);
-  color: var(--ink-faint);
-  font-size: 0.8rem;
+  color: var(--ink-dim);
+  font-size: 0.88rem;
   letter-spacing: 0.06em;
 }
 
-.footer a:hover {
+.footer a {
   color: var(--copper);
+}
+
+.footer a:hover {
+  color: #d4b68a;
 }
 
 .reveal {
@@ -643,15 +649,21 @@ html[lang="en"] .honors strong {
     white-space: nowrap;
   }
 
+  .hero {
+    min-height: calc(100svh - 4.4rem);
+    padding: 1.5rem var(--pad) 3.5rem;
+  }
+
   .hero-grid {
     grid-template-columns: 1.2fr 0.8fr;
     min-height: calc(100svh - 8rem);
+    align-items: center;
   }
 
   .hero-portrait {
     justify-self: end;
     width: min(100%, 24rem);
-    margin-bottom: 1.2rem;
+    margin-bottom: 0;
   }
 
   .project-row {
