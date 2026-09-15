@@ -4,38 +4,83 @@ export const zh: Dictionary = {
   meta: {
     title: '段茗尧 · MingYao Duan',
     description:
-      '深圳北理莫斯科大学计算机协会会长、校团委助理、Founder。建造数学建模、校园系统与 AI 基础设施。',
+      '深圳北理莫斯科大学计算机协会会长、校团委助理、Founder。GitHub 统计、PR 记录与开源作品。',
   },
   nav: {
-    work: '作品',
-    honors: '履历',
+    skip: '跳到统计',
+    stats: '统计',
+    pulls: 'PR',
+    repos: '仓库',
+    snake: '贪吃蛇',
     langZh: '中',
     langEn: 'EN',
   },
-  hero: {
-    kicker: '深圳 · 深圳北理莫斯科大学',
+  header: {
     name: '段茗尧',
     altName: 'MingYao Duan',
     tagline: '建造者 · 计算机协会会长 · Founder',
-    bio: '在深北莫主持计算机协会、协助校团委，同时把数学建模、校园系统和 AI 基础设施做成能上线的产品。',
-    chips: ['计算机协会会长', '校团委助理', 'Founder'],
-    ctaWork: '查看作品',
-    ctaGitHub: 'GitHub',
-    portraitAlt: '段茗尧',
-    caption: 'Shenzhen, China',
+    bio: '在深北莫主持计算机协会、协助校团委，把数学建模、校园系统和 AI 基础设施做成能上线的产品。',
+    location: '深圳 · 深圳北理莫斯科大学',
+    github: 'GitHub',
+    email: '邮箱',
   },
-  work: {
-    kicker: '01 — 作品',
-    title: '精选建造',
-    more: '其余建造',
-    less: '收起',
-    open: 'GitHub',
-    featured: [
+  badges: {
+    followers: 'Followers',
+    repos: 'Repos',
+    views: 'Profile views',
+  },
+  now: {
+    title: '现在',
+    rolesTitle: '职务',
+    honorsTitle: '竞赛',
+    roles: [
+      { title: '会长', org: '深圳北理莫斯科大学计算机协会' },
+      { title: '助理', org: '深圳北理莫斯科大学校团委' },
+      { title: 'Founder', org: 'CMAMSys · DeployPilot · StarByte · YogduOJ' },
+    ],
+    honors: [
+      { name: 'MathorCup 数学建模', prize: '国家三等奖' },
+      { name: '深圳杯数学建模', prize: '国家三等奖' },
+      { name: 'GMC 国际企业管理挑战赛', prize: '国家三等奖' },
+    ],
+  },
+  stats: {
+    title: 'GitHub 统计',
+    subtitle: '提交、PR、语言与连续贡献，数据来自公开 GitHub API。',
+    statsAlt: 'GitHub 统计卡片',
+    langsAlt: '最常用语言',
+    streakAlt: '贡献连续天数',
+    trophyAlt: 'GitHub 奖杯',
+    detailsAlt: 'GitHub 资料详情',
+    reposLangAlt: '各语言仓库占比',
+    commitLangAlt: '各语言提交占比',
+    productiveAlt: '一天中的提交时段',
+  },
+  stack: {
+    title: '技术栈',
+    alt: 'Go TypeScript JavaScript Python React Vue Next.js Docker Kubernetes PostgreSQL Linux GitHub Actions',
+  },
+  pulls: {
+    title: '最近的 Pull Request',
+    subtitle: '从 GitHub 拉取最近更新的 PR，含自有仓库与对外贡献。',
+    loading: '正在读取 PR…',
+    error: '暂时读不到 GitHub API，打开 GitHub 查看完整记录。',
+    empty: '没有公开的 PR。',
+    open: 'Open',
+    merged: 'Merged',
+    closed: 'Closed',
+    all: '在 GitHub 上查看全部 PR',
+  },
+  repos: {
+    title: '仓库',
+    subtitle: '数学建模、部署网关、校园系统与评测。',
+    open: '打开仓库',
+    privateNote: 'Private',
+    items: [
       {
         id: 'cmamsys',
         name: 'CMAMSys',
-        blurb:
-          '竞赛数学自动建模系统。把赛题、建模与协作收进同一条工作流，专利申请中。',
+        blurb: '竞赛数学自动建模系统。赛题、建模与协作同一条工作流，专利申请中。',
         tags: ['TypeScript', 'Next.js', 'Python', 'PostgreSQL'],
         href: 'https://github.com/Yogdunana/CMAMSys',
         note: 'Patent Pending',
@@ -43,8 +88,7 @@ export const zh: Dictionary = {
       {
         id: 'deploypilot',
         name: 'DeployPilot',
-        blurb:
-          'AI 原生部署网关。让沙箱里的 AI IDE 通过 MCP 连上真实的基础设施。',
+        blurb: 'AI 原生部署网关。让沙箱里的 AI IDE 通过 MCP 连上真实基础设施。',
         tags: ['Go', 'MCP', 'Docker', 'Kubernetes', 'Vue'],
         href: 'https://github.com/Yogdunana/deploypilot',
       },
@@ -62,8 +106,13 @@ export const zh: Dictionary = {
         tags: ['Go'],
         href: 'https://github.com/Yogdunana/yogduoj',
       },
-    ],
-    moreProjects: [
+      {
+        id: 'treasure',
+        name: '秘宝争夺战',
+        blurb: '社团招新现场的多人网页桌游。',
+        tags: ['TypeScript', 'React', 'Socket.io'],
+        href: 'https://github.com/Yogdunana/treasure-contest',
+      },
       {
         id: 'campus',
         name: '智慧校园',
@@ -99,49 +148,21 @@ export const zh: Dictionary = {
         tags: ['HTML'],
         href: 'https://github.com/Yogdunana/national-defense-knowledge-competition',
       },
-    ],
-  },
-  lead: {
-    kicker: '02 — 履历',
-    title: '职务与荣誉',
-    rolesTitle: '现在',
-    honorsTitle: '竞赛',
-    roles: [
       {
-        title: '会长',
-        org: '深圳北理莫斯科大学计算机协会',
-      },
-      {
-        title: '助理',
-        org: '深圳北理莫斯科大学校团委',
-      },
-      {
-        title: 'Founder',
-        org: 'CMAMSys · DeployPilot · StarByte · YogduOJ',
-      },
-    ],
-    honors: [
-      {
-        name: 'MathorCup 数学建模',
-        prize: '国家三等奖',
-      },
-      {
-        name: '深圳杯数学建模',
-        prize: '国家三等奖',
-      },
-      {
-        name: 'GMC 国际企业管理挑战赛',
-        prize: '国家三等奖',
+        id: 'referral',
+        name: '悠渡脉选',
+        blurb: 'AI 驱动的内推资源管理系统。',
+        tags: ['TypeScript'],
+        href: 'https://github.com/Yogdunana/Yogdu-Private-Referral',
       },
     ],
   },
-  stack: {
-    kicker: '03 — 工具',
-    title: '常用技术',
-    items: ['Go', 'TypeScript', 'Python', 'React', 'Vue', 'Docker', 'PostgreSQL'],
+  snake: {
+    title: '贡献贪吃蛇',
+    subtitle: '用贡献格子生成的贪吃蛇，每日由 GitHub Actions 更新。',
+    alt: 'GitHub 贡献贪吃蛇动画',
   },
   footer: {
-    built: '建于深圳',
-    github: 'GitHub',
+    built: 'Yogdunana · 深圳',
   },
 }

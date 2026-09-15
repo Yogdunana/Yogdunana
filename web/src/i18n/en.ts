@@ -4,38 +4,93 @@ export const en: Dictionary = {
   meta: {
     title: 'MingYao Duan · 段茗尧',
     description:
-      'President of the Computer Association at SMBU, Youth League assistant, and founder. Building math-modeling platforms, campus systems, and AI infrastructure.',
+      'President of the Computer Association at SMBU, Youth League assistant, and founder. GitHub stats, pull requests, and selected repositories.',
   },
   nav: {
-    work: 'Work',
-    honors: 'Now',
+    skip: 'Skip to stats',
+    stats: 'Stats',
+    pulls: 'PRs',
+    repos: 'Repos',
+    snake: 'Snake',
     langZh: '中',
     langEn: 'EN',
   },
-  hero: {
-    kicker: 'Shenzhen · SMBU',
+  header: {
     name: 'MingYao Duan',
     altName: '段茗尧',
     tagline: 'Builder · Computer Association President · Founder',
-    bio: 'At Shenzhen MSU-BIT University I lead the Computer Association and assist the Youth League, while shipping math-modeling platforms, campus systems, and AI infrastructure that actually run.',
-    chips: ['CS Association President', 'Youth League Assistant', 'Founder'],
-    ctaWork: 'View work',
-    ctaGitHub: 'GitHub',
-    portraitAlt: 'MingYao Duan',
-    caption: 'Shenzhen, China',
+    bio: 'At Shenzhen MSU-BIT University I lead the Computer Association and assist the Youth League, while shipping math-modeling platforms, campus systems, and AI infrastructure.',
+    location: 'Shenzhen · SMBU',
+    github: 'GitHub',
+    email: 'Email',
   },
-  work: {
-    kicker: '01 — Work',
-    title: 'Selected builds',
-    more: 'More work',
-    less: 'Show less',
-    open: 'GitHub',
-    featured: [
+  badges: {
+    followers: 'Followers',
+    repos: 'Repos',
+    views: 'Profile views',
+  },
+  now: {
+    title: 'Now',
+    rolesTitle: 'Roles',
+    honorsTitle: 'Contests',
+    roles: [
+      {
+        title: 'President',
+        org: 'Computer Association, Shenzhen MSU-BIT University',
+      },
+      {
+        title: 'Assistant',
+        org: 'Youth League Committee, Shenzhen MSU-BIT University',
+      },
+      {
+        title: 'Founder',
+        org: 'CMAMSys · DeployPilot · StarByte · YogduOJ',
+      },
+    ],
+    honors: [
+      { name: 'MathorCup Mathematical Modeling', prize: 'National Third Prize' },
+      { name: 'Shenzhen Cup Mathematical Modeling', prize: 'National Third Prize' },
+      { name: 'GMC International Management Challenge', prize: 'National Third Prize' },
+    ],
+  },
+  stats: {
+    title: 'GitHub stats',
+    subtitle: 'Commits, pull requests, languages, and streaks from the public GitHub API.',
+    statsAlt: 'GitHub stats card',
+    langsAlt: 'Most used languages',
+    streakAlt: 'Contribution streak',
+    trophyAlt: 'GitHub trophies',
+    detailsAlt: 'GitHub profile details',
+    reposLangAlt: 'Repositories per language',
+    commitLangAlt: 'Commits per language',
+    productiveAlt: 'Commits by hour of day',
+  },
+  stack: {
+    title: 'Stack',
+    alt: 'Go TypeScript JavaScript Python React Vue Next.js Docker Kubernetes PostgreSQL Linux GitHub Actions',
+  },
+  pulls: {
+    title: 'Recent pull requests',
+    subtitle: 'Latest PRs fetched live from GitHub, including work on my own repositories.',
+    loading: 'Loading pull requests…',
+    error: 'GitHub API is unavailable. Open GitHub for the full PR history.',
+    empty: 'No public pull requests.',
+    open: 'Open',
+    merged: 'Merged',
+    closed: 'Closed',
+    all: 'View all PRs on GitHub',
+  },
+  repos: {
+    title: 'Repositories',
+    subtitle: 'Math modeling, deployment gateways, campus systems, and an online judge.',
+    open: 'Open repo',
+    privateNote: 'Private',
+    items: [
       {
         id: 'cmamsys',
         name: 'CMAMSys',
         blurb:
-          'An auto-modeling system for contest mathematics — problem, model, and collaboration in one workflow. Patent pending.',
+          'Auto-modeling for contest mathematics — problem, model, and collaboration in one workflow. Patent pending.',
         tags: ['TypeScript', 'Next.js', 'Python', 'PostgreSQL'],
         href: 'https://github.com/Yogdunana/CMAMSys',
         note: 'Patent Pending',
@@ -64,21 +119,24 @@ export const en: Dictionary = {
         tags: ['Go'],
         href: 'https://github.com/Yogdunana/yogduoj',
       },
-    ],
-    moreProjects: [
+      {
+        id: 'treasure',
+        name: 'Treasure Contest',
+        blurb: 'A multiplayer browser board game for club recruitment nights.',
+        tags: ['TypeScript', 'React', 'Socket.io'],
+        href: 'https://github.com/Yogdunana/treasure-contest',
+      },
       {
         id: 'campus',
         name: 'Smart Campus',
-        blurb:
-          'SMBU campus intelligence system, built for an AI programming contest.',
+        blurb: 'SMBU campus intelligence system, built for an AI programming contest.',
         tags: ['TypeScript'],
         href: 'https://github.com/Yogdunana/smbu-smart-campus-system',
       },
       {
         id: 'face',
         name: 'Face Access',
-        blurb:
-          'A pluggable face-recognition platform for access, attendance, and visitors.',
+        blurb: 'A pluggable face-recognition platform for access, attendance, and visitors.',
         tags: ['Python'],
         href: 'https://github.com/Yogdunana/face-access-control',
       },
@@ -104,49 +162,21 @@ export const en: Dictionary = {
         tags: ['HTML'],
         href: 'https://github.com/Yogdunana/national-defense-knowledge-competition',
       },
-    ],
-  },
-  lead: {
-    kicker: '02 — Now',
-    title: 'Roles & honors',
-    rolesTitle: 'Office',
-    honorsTitle: 'Contests',
-    roles: [
       {
-        title: 'President',
-        org: 'Computer Association, Shenzhen MSU-BIT University',
-      },
-      {
-        title: 'Assistant',
-        org: 'Youth League Committee, Shenzhen MSU-BIT University',
-      },
-      {
-        title: 'Founder',
-        org: 'CMAMSys · DeployPilot · StarByte · YogduOJ',
-      },
-    ],
-    honors: [
-      {
-        name: 'MathorCup Mathematical Modeling',
-        prize: 'National Third Prize',
-      },
-      {
-        name: 'Shenzhen Cup Mathematical Modeling',
-        prize: 'National Third Prize',
-      },
-      {
-        name: 'GMC International Management Challenge',
-        prize: 'National Third Prize',
+        id: 'referral',
+        name: 'Yogdu Referral',
+        blurb: 'An AI-powered internal referral management system.',
+        tags: ['TypeScript'],
+        href: 'https://github.com/Yogdunana/Yogdu-Private-Referral',
       },
     ],
   },
-  stack: {
-    kicker: '03 — Stack',
-    title: 'Tools in rotation',
-    items: ['Go', 'TypeScript', 'Python', 'React', 'Vue', 'Docker', 'PostgreSQL'],
+  snake: {
+    title: 'Contribution snake',
+    subtitle: 'A snake built from my contribution grid. Regenerated daily by GitHub Actions.',
+    alt: 'GitHub contribution snake animation',
   },
   footer: {
-    built: 'Built in Shenzhen',
-    github: 'GitHub',
+    built: 'Yogdunana · Shenzhen',
   },
 }
