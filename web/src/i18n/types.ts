@@ -25,47 +25,74 @@ export type Dictionary = {
     description: string
   }
   nav: {
-    work: string
-    honors: string
+    skip: string
+    stats: string
+    pulls: string
+    repos: string
+    snake: string
     langZh: string
     langEn: string
   }
-  hero: {
-    kicker: string
+  header: {
     name: string
     altName: string
     tagline: string
     bio: string
-    chips: string[]
-    ctaWork: string
-    ctaGitHub: string
-    portraitAlt: string
-    caption: string
+    location: string
+    github: string
+    email: string
   }
-  work: {
-    kicker: string
-    title: string
-    more: string
-    less: string
-    open: string
-    featured: Project[]
-    moreProjects: Project[]
+  badges: {
+    followers: string
+    repos: string
+    views: string
   }
-  lead: {
-    kicker: string
+  now: {
     title: string
     rolesTitle: string
     honorsTitle: string
     roles: Role[]
     honors: Honor[]
   }
-  stack: {
-    kicker: string
+  stats: {
     title: string
-    items: string[]
+    subtitle: string
+    statsAlt: string
+    langsAlt: string
+    trophyAlt: string
+    detailsAlt: string
+    reposLangAlt: string
+    commitLangAlt: string
+    productiveAlt: string
+  }
+  stack: {
+    title: string
+    alt: string
+  }
+  pulls: {
+    title: string
+    subtitle: string
+    loading: string
+    error: string
+    empty: string
+    open: string
+    merged: string
+    closed: string
+    all: string
+  }
+  repos: {
+    title: string
+    subtitle: string
+    open: string
+    privateNote: string
+    items: Project[]
+  }
+  snake: {
+    title: string
+    subtitle: string
+    alt: string
   }
   footer: {
     built: string
-    github: string
   }
 }

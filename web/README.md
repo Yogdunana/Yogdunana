@@ -1,6 +1,8 @@
 # Yogdunana site
 
-Personal site for 段茗尧 / MingYao Duan.
+Personal GitHub profile companion for 段茗尧 / MingYao Duan.
+
+The profile README lives at the repo root. This app embeds the same stats, trophies, language cards, live pull requests, and contribution snake.
 
 ```bash
 cd web

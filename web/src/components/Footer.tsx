@@ -1,6 +1,5 @@
+import { PROFILE } from '../github'
 import { useI18n } from '../i18n/LanguageContext'
-
-const GITHUB = 'https://github.com/Yogdunana'
 
 export function Footer() {
   const { t } = useI18n()
@@ -9,10 +8,10 @@ export function Footer() {
   return (
     <footer className="footer">
       <p>
-        © {year} 段茗尧 / MingYao Duan · {t.footer.built}
+        © {year} {t.footer.built}
       </p>
-      <a href={GITHUB} target="_blank" rel="noreferrer">
-        {t.footer.github}
+      <a href={PROFILE} target="_blank" rel="noreferrer">
+        github.com/Yogdunana
       </a>
     </footer>
   )
