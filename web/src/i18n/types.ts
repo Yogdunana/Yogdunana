@@ -59,7 +59,6 @@ export type Dictionary = {
     subtitle: string
     statsAlt: string
     langsAlt: string
-    streakAlt: string
     trophyAlt: string
     detailsAlt: string
     reposLangAlt: string

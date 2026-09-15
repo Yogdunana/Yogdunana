@@ -58,7 +58,6 @@ export const en: Dictionary = {
     subtitle: 'Commits, pull requests, languages, and streaks from the public GitHub API.',
     statsAlt: 'GitHub stats card',
     langsAlt: 'Most used languages',
-    streakAlt: 'Contribution streak',
     trophyAlt: 'GitHub trophies',
     detailsAlt: 'GitHub profile details',
     reposLangAlt: 'Repositories per language',

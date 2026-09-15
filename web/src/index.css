@@ -289,6 +289,14 @@ h3 {
   align-items: flex-start;
 }
 
+.skill-icons,
+.widget-wide,
+.snake {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 .widget {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -449,6 +457,20 @@ h3 {
   padding: 1.25rem 0 0.5rem;
   color: var(--muted);
   font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .header-nav {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 0.35rem;
+  }
+
+  .plain-list li {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
 }
 
 @media (min-width: 760px) {

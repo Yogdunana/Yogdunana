@@ -49,7 +49,6 @@ export const zh: Dictionary = {
     subtitle: '提交、PR、语言与连续贡献，数据来自公开 GitHub API。',
     statsAlt: 'GitHub 统计卡片',
     langsAlt: '最常用语言',
-    streakAlt: '贡献连续天数',
     trophyAlt: 'GitHub 奖杯',
     detailsAlt: 'GitHub 资料详情',
     reposLangAlt: '各语言仓库占比',

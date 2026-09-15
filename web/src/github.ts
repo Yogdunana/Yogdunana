@@ -1,13 +1,11 @@
 export const USER = 'Yogdunana'
 export const USER_ID = 106004584
-export const SITE = 'https://yogdunana.github.io/Yogdunana/'
 export const PROFILE = `https://github.com/${USER}`
 export const AVATAR = `https://avatars.githubusercontent.com/u/${USER_ID}?v=4`
 export const EMAIL = 'yogdunana@yogdunana.com'
 
 const STATS = 'https://github-readme-stats.shion.dev'
 const TROPHY = 'https://github-profile-trophy-orcin-eta.vercel.app'
-const STREAK = 'https://streak-stats.demolab.com'
 const SUMMARY = 'https://github-profile-summary-cards.vercel.app/api/cards'
 
 export type WidgetTheme = 'dark' | 'light'
@@ -42,25 +40,6 @@ export function topLangsCard(theme: WidgetTheme, locale: 'en' | 'cn') {
   return `${STATS}/api/top-langs/?${q.toString()}`
 }
 
-export function pinCard(repo: string, theme: WidgetTheme) {
-  const q = new URLSearchParams({
-    username: USER,
-    repo,
-    hide_border: 'true',
-    theme: statsTheme(theme),
-  })
-  return `${STATS}/api/pin/?${q.toString()}`
-}
-
-export function streakCard(theme: WidgetTheme) {
-  const q = new URLSearchParams({
-    user: USER,
-    hide_border: 'true',
-    theme: theme === 'dark' ? 'github-dark-blue' : 'github-light',
-  })
-  return `${STREAK}/?${q.toString()}`
-}
-
 export function trophyCard(theme: WidgetTheme) {
   const q = new URLSearchParams({
     username: USER,
@@ -68,6 +47,7 @@ export function trophyCard(theme: WidgetTheme) {
     column: '4',
     'margin-w': '8',
     'margin-h': '8',
+    rank: 'SECRET,SSS,SS,S,AAA,AA,A,BBB,BB,B',
   })
   return `${TROPHY}/?${q.toString()}`
 }
@@ -92,9 +72,3 @@ export const BADGES = {
   views: `https://komarev.com/ghpvc/?username=${USER}&style=flat&label=Profile+views`,
 }
 
-export const PINNED_REPOS = [
-  'CMAMSys',
-  'deploypilot',
-  'StarByte',
-  'yogduoj',
-] as const

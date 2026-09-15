@@ -1,7 +1,6 @@
 import {
   SKILL_ICONS,
   statsCard,
-  streakCard,
   summaryCard,
   topLangsCard,
   trophyCard,
@@ -24,22 +23,13 @@ export function Stats() {
           className="widget"
           src={statsCard(scheme, locale)}
           alt={t.stats.statsAlt}
-          height={200}
         />
         <img
           className="widget"
           src={topLangsCard(scheme, locale)}
           alt={t.stats.langsAlt}
-          height={200}
         />
       </div>
-
-      <img
-        className="widget widget-wide"
-        src={streakCard(scheme)}
-        alt={t.stats.streakAlt}
-        height={180}
-      />
 
       <h3>{t.stats.trophyAlt}</h3>
       <img

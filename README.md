@@ -44,19 +44,12 @@ Shenzhen MSU-BIT University
   </picture>
 </p>
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Yogdunana&theme=github-dark-blue&hide_border=true" />
-    <img src="https://streak-stats.demolab.com?user=Yogdunana&theme=github-light&hide_border=true" alt="GitHub streak" />
-  </picture>
-</p>
-
 ## GitHub trophies
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-orcin-eta.vercel.app/?username=Yogdunana&theme=onedark&column=4&margin-w=8&margin-h=8" />
-    <img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=Yogdunana&theme=flat&column=4&margin-w=8&margin-h=8" alt="GitHub trophies" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy-orcin-eta.vercel.app/?username=Yogdunana&theme=onedark&column=4&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A,BBB,BB,B" />
+    <img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=Yogdunana&theme=flat&column=4&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A,BBB,BB,B" alt="GitHub trophies" />
   </picture>
 </p>
 
