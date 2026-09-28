@@ -5,9 +5,11 @@ import { Pulls } from './components/Pulls'
 import { Repos } from './components/Repos'
 import { Snake } from './components/Snake'
 import { Stats } from './components/Stats'
+import { Decor } from './components/Decor'
 import { useI18n } from './i18n/LanguageContext'
+import { ThemeProvider } from './theme/ThemeContext'
 
-export default function App() {
+function Shell() {
   const { t } = useI18n()
 
   return (
@@ -15,6 +17,7 @@ export default function App() {
       <a className="skip" href="#stats">
         {t.nav.skip}
       </a>
+      <Decor />
       <Header />
       <main>
         <Now />
@@ -25,5 +28,13 @@ export default function App() {
       </main>
       <Footer />
     </div>
+  )
+}
+
+export default function App() {
+  return (
+    <ThemeProvider>
+      <Shell />
+    </ThemeProvider>
   )
 }

@@ -1,8 +1,10 @@
 import { AVATAR, BADGES, EMAIL, PROFILE } from '../github'
 import { useI18n } from '../i18n/LanguageContext'
+import { useTheme, THEMES } from '../theme/ThemeContext'
 
 export function Header() {
   const { lang, t, setLang } = useI18n()
+  const { theme, setTheme } = useTheme()
 
   return (
     <header className="site-header">
@@ -35,6 +37,19 @@ export function Header() {
             >
               {t.nav.langEn}
             </button>
+          </div>
+          <div className="skin" role="group" aria-label="Theme">
+            {THEMES.map((s) => (
+              <button
+                key={s.id}
+                type="button"
+                title={s.label}
+                aria-label={s.label}
+                className={theme === s.id ? 'skin-dot is-on' : 'skin-dot'}
+                style={{ background: s.dot }}
+                onClick={() => setTheme(s.id)}
+              />
+            ))}
           </div>
         </nav>
       </div>
