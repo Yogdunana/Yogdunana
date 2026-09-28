@@ -33,18 +33,13 @@ I lead the Computer Association and assist the Youth League Committee at Shenzhe
 
 ## Featured repos
 
-| | |
-|:---:|:---:|
-| [![CMAMSys](https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=CMAMSys&hide_border=true)](https://github.com/Yogdunana/CMAMSys) | [![DeployPilot](https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=deploypilot&hide_border=true)](https://github.com/Yogdunana/deploypilot) |
-| [![StarByte](https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=StarByte&hide_border=true)](https://github.com/Yogdunana/StarByte) | [![YogduOJ](https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=yogduoj&hide_border=true)](https://github.com/Yogdunana/yogduoj) |
+**[CMAMSys](https://github.com/Yogdunana/CMAMSys)** — end-to-end AI collaboration platform for mathematical-modeling competitions. I designed the architecture: three-role collaboration, a six-module layout, and an auditable `.mmp` process format spanning 27 data models.
 
-**CMAMSys** — end-to-end AI collaboration platform for mathematical-modeling competitions. I designed the architecture: three-role collaboration, a six-module layout, and an auditable `.mmp` process format spanning 27 data models.
+**[DeployPilot](https://github.com/Yogdunana/deploypilot)** — the AI-native deployment gateway, bridging sandboxed AI IDEs to real infrastructure over the MCP protocol.
 
-**DeployPilot** — the AI-native deployment gateway, bridging sandboxed AI IDEs to real infrastructure over the MCP protocol.
+**[StarByte](https://github.com/Yogdunana/StarByte)** — an internal operating system shared by a company and the Computer Association.
 
-**StarByte** — an internal operating system shared by a company and the Computer Association.
-
-**YogduOJ** — a self-built online judge for programming contests, algorithm practice, and CTF.
+**[YogduOJ](https://github.com/Yogdunana/yogduoj)** — a self-built online judge for programming contests, algorithm practice, and CTF.
 
 ## GitHub stats
 
@@ -90,12 +85,6 @@ I lead the Computer Association and assist the Youth League Committee at Shenzhe
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Yogdunana&theme=github" alt="Commits per language" />
   </picture>
 </p>
-
-## Pull requests
-
-The stats card above includes PR, merged-PR, and review counts.
-
-Recent PRs: [author:Yogdunana type:pr](https://github.com/search?q=author%3AYogdunana+type%3Apr&type=pullrequests)
 
 ## Contribution snake
 
