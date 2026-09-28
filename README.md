@@ -1,20 +1,20 @@
-# 段茗尧 · MingYao Duan
+# MingYao Duan (段茗尧)
 
-Builder · 计算机协会会长 · Founder  
-Shenzhen MSU-BIT University
+**Builder · President of the Computer Association · Founder**
+Shenzhen MSU-BIT University · Shenzhen, China
 
-[网站](https://yogdunana.github.io/Yogdunana/) · [GitHub](https://github.com/Yogdunana)
+[Website](https://yogdunana.github.io/Yogdunana/) · [GitHub](https://github.com/Yogdunana) · [Email](mailto:mingyaoduan@smbu.edu.cn)
 
 [![Followers](https://img.shields.io/github/followers/Yogdunana?style=flat&logo=github&label=Followers)](https://github.com/Yogdunana)
 [![Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FYogdunana&query=%24.public_repos&label=Repos&logo=github&style=flat)](https://github.com/Yogdunana?tab=repositories)
 [![Profile views](https://komarev.com/ghpvc/?username=Yogdunana&style=flat&label=Profile+views)](https://github.com/Yogdunana)
 
-在深北莫主持计算机协会、协助校团委，把数学建模、校园系统和 AI 基础设施做成能上线的产品。
+I lead the Computer Association and assist the Youth League Committee at Shenzhen MSU-BIT University, while shipping math-modeling platforms, campus systems, and AI infrastructure that actually make it into production.
 
-- 会长 · 深圳北理莫斯科大学计算机协会
-- 助理 · 深圳北理莫斯科大学校团委
-- Founder · CMAMSys / DeployPilot / StarByte / YogduOJ
-- MathorCup / 深圳杯 / GMC · 国家三等奖
+- **President** · Computer Association, Shenzhen MSU-BIT University
+- **Assistant** · Youth League Committee, Shenzhen MSU-BIT University
+- **Founder** · CMAMSys / DeployPilot / StarByte / YogduOJ
+- **National Third Prize** · MathorCup / Shenzhen Cup / GMC
 
 ## Tech stack
 
@@ -30,6 +30,21 @@ Shenzhen MSU-BIT University
 <p>
   <img src="https://skillicons.dev/icons?i=go,ts,js,python,react,vue,nextjs,docker,kubernetes,postgres,linux,githubactions" alt="Go TypeScript JavaScript Python React Vue Next.js Docker Kubernetes PostgreSQL Linux GitHub Actions" />
 </p>
+
+## Featured repos
+
+| | |
+|:---:|:---:|
+| [![CMAMSys](https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=CMAMSys&hide_border=true)](https://github.com/Yogdunana/CMAMSys) | [![DeployPilot](https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=deploypilot&hide_border=true)](https://github.com/Yogdunana/deploypilot) |
+| [![StarByte](https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=StarByte&hide_border=true)](https://github.com/Yogdunana/StarByte) | [![YogduOJ](https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=yogduoj&hide_border=true)](https://github.com/Yogdunana/yogduoj) |
+
+**CMAMSys** — end-to-end AI collaboration platform for mathematical-modeling competitions. I designed the architecture: three-role collaboration, a six-module layout, and an auditable `.mmp` process format spanning 27 data models.
+
+**DeployPilot** — the AI-native deployment gateway, bridging sandboxed AI IDEs to real infrastructure over the MCP protocol.
+
+**StarByte** — an internal operating system shared by a company and the Computer Association.
+
+**YogduOJ** — a self-built online judge for programming contests, algorithm practice, and CTF.
 
 ## GitHub stats
 
@@ -78,40 +93,9 @@ Shenzhen MSU-BIT University
 
 ## Pull requests
 
-Stats card above includes PR / merged PR / review counts.
+The stats card above includes PR, merged-PR, and review counts.
 
 Recent PRs: [author:Yogdunana type:pr](https://github.com/search?q=author%3AYogdunana+type%3Apr&type=pullrequests)
-
-## Featured repos
-
-<p>
-  <a href="https://github.com/Yogdunana/CMAMSys">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=CMAMSys&hide_border=true&theme=github_dark" />
-      <img src="https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=CMAMSys&hide_border=true" alt="CMAMSys" />
-    </picture>
-  </a>
-  <a href="https://github.com/Yogdunana/deploypilot">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=deploypilot&hide_border=true&theme=github_dark" />
-      <img src="https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=deploypilot&hide_border=true" alt="DeployPilot" />
-    </picture>
-  </a>
-</p>
-<p>
-  <a href="https://github.com/Yogdunana/StarByte">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=StarByte&hide_border=true&theme=github_dark" />
-      <img src="https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=StarByte&hide_border=true" alt="StarByte" />
-    </picture>
-  </a>
-  <a href="https://github.com/Yogdunana/yogduoj">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=yogduoj&hide_border=true&theme=github_dark" />
-      <img src="https://github-readme-stats.shion.dev/api/pin/?username=Yogdunana&repo=yogduoj&hide_border=true" alt="YogduOJ" />
-    </picture>
-  </a>
-</p>
 
 ## Contribution snake
 
