@@ -89,10 +89,9 @@ export const en: Dictionary = {
         id: 'cmamsys',
         name: 'CMAMSys',
         blurb:
-          'Auto-modeling for contest mathematics — problem, model, and collaboration in one workflow. Patent pending.',
+          'Auto-modeling for contest mathematics — problem, model, and collaboration in one workflow.',
         tags: ['TypeScript', 'Next.js', 'Python', 'PostgreSQL'],
         href: 'https://github.com/Yogdunana/CMAMSys',
-        note: 'Patent Pending',
       },
       {
         id: 'deploypilot',

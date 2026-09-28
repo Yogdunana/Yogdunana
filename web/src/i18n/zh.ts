@@ -79,10 +79,9 @@ export const zh: Dictionary = {
       {
         id: 'cmamsys',
         name: 'CMAMSys',
-        blurb: '竞赛数学自动建模系统。赛题、建模与协作同一条工作流，专利申请中。',
+        blurb: '竞赛数学自动建模系统。赛题、建模与协作同一条工作流。',
         tags: ['TypeScript', 'Next.js', 'Python', 'PostgreSQL'],
         href: 'https://github.com/Yogdunana/CMAMSys',
-        note: 'Patent Pending',
       },
       {
         id: 'deploypilot',
